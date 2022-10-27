@@ -3,8 +3,10 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
 
-// Fails when usiung the "@" alias but succeeds when using a relative path.
 import config from "@/anotherFile.js";
+
+// Results in an error in the browser console.
+// import config from "@/anotherFile.js";
 
 function App() {
   const [count, setCount] = useState(0);
