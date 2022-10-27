@@ -3,7 +3,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
 
-import config from "@/anotherFile.js";
+import config from "./anotherFile.js";
 
 // Results in an error in the browser console.
 // import config from "@/anotherFile.js";
